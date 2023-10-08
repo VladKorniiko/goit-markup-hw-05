@@ -568,7 +568,7 @@ section {
   pointer-events: none;
 }
 
-.is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -683,6 +683,7 @@ section {
 
 .modal-icon {
   position: absolute;
+  fill: #2e2f42;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
@@ -697,7 +698,7 @@ section {
   background-color: transparent;
   margin-bottom: 16px;
   padding: 8px 16px;
-  display: flex;
+  display: block;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
