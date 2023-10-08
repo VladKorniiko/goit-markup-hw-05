@@ -616,9 +616,6 @@ section {
   border: none;
 }
 
-..modal-close {
-}
-
 .modal-btn:active .modal-close,
 .modal-btn:focus .modal-close,
 .modal-btn:hover .modal-close {
@@ -684,7 +681,9 @@ section {
   cursor: pointer;
 }
 
-.modal-form-btn:active {
+.modal-form-btn:active,
+.modal-form-btn:hover,
+.modal-form-btn:focus {
   background-color: #404bbf;
 }
 
