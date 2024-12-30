@@ -520,6 +520,7 @@ address a {
   top: 50%;
   left: 50%;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(-50%, -50%);
 }
 
 .modal-btn-close {
@@ -593,6 +594,7 @@ address a {
   display: block;
   text-align: center;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
   background-color: #4d5ae5;
